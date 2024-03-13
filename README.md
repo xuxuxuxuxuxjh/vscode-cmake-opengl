@@ -1,4 +1,4 @@
-#### vscode + MinGW64 + cmake
+## vscode + MinGW64 + cmake
 
 从官网上下载glew, glfw，注意要是x64的版本。glut官网没有64位的，google搜一个即可。
 
