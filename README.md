@@ -62,8 +62,8 @@ make
 .\OpenGLPrograming.exe
 ```
 
-然后就g了，非常好，搞了两天，玉玉了。
+可能报错是找不到glew32.dll，找不到glut64.dll。
 
-报错是找不到glew32.dll，找不到glut64.dll。
+把这几个dll放到exe的文件夹下即可，或者直接把这几个dll扔system32
 
-红温了，直接把这几个dll扔system32，然后就可以了，不知道为啥，可能是windows的问题。
+运行代码的时候如果遇到一些glu的函数报错，就把glu32.dll下下来链接进去就行
